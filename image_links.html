@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('background_image.jpg'); /* Path to your background image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        /* Additional styling for other elements */
+        header {
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background color for better readability */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background color for better readability */
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background color on hover */
+        }
+        section {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background color for better readability */
+            margin: 20px 0;
+        }
+        grid-item {
+            text-align: center;
+        }
+        .grid-container {
+    display: flex;
+    justify-content: space-between; /* Adjust the space between items */
+}
+
+.grid-item {
+    flex: 1;
+    margin: 0 10px; /* Add margin between images */
+}
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Welcome To My Image Links!</h1>
+        <p>This is my first linked immages website</p>
+    </header>
+    <nav>
+        <ul>
+            <a href="Home" target="_top">Home</a>
+            <a href="Gallery" target="_top">Gallery</a>
+            <a href="Menu" target="_top">Menu</a>
+        </ul>
+    </nav>
+    <section id="Home">
+        <h2>Home</h2>
+        <p>Home of Technology, Food & Nature.</p>
+        <a href="images/tech_light.jpg" target="_self" title="Home"><img src="images/tech_light.jpg" alt="Technology" width="1200" height="800"></a>
+    </section>
+    <section id="Gallery">
+        <h2>Gallery</h2>
+        <p>Nature is Beautiful</p>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="images/nature_autumn.jpg" alt="Nature" width="900" height="700">
+                <img src="images/nature_southernlights.jpg" alt="Nature" width="900" height="500">
+            </div>
+            <div class="grid-item">
+                <img src="images/nature_tropics.jpg" alt="Nature" width="900" height="600">
+                <img src="images/nature_waterfall.jpg" alt="Nature" width="900" height="600">
+            </div>
+        </div>
+    </section id="Menu">
+    <h2>Menu</h2>
+        <ul>
+            <li><a href="https://www.pexels.com/photo/sandwich-and-slice-of-lemons-1603901/" target="_blank"><img src="images/food_power_sandwich.jpg" alt="Power_Sandwich" width="300" height="200">Power Sandwich</a></li>
+            <li><a href="https://www.pexels.com/photo/close-up-photo-of-grilled-chicken-106343/" target="_blank"><img src="images/food_roast_chicken.jpg" alt="Roast Chicken" width="300" height="200">Roast Chicken</a></li>
+            <li><a href="https://www.pexels.com/photo/sliced-cake-on-plate-291528/" target="_blank"><img src="images/food_cake.jpg" alt="Cake" width="300" height="200">Cake</a></li>
+        </ul>
+    <section>
+    </section>
+</body>
+</html>
