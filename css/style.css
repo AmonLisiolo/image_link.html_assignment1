@@ -1,0 +1,14 @@
+/* id selector */
+#green paragraph{
+    color: green;
+    font-size: 20px;
+}
+.red_paragraph{
+    color: red;
+    font-size: 35;
+}
+.container{
+   
+
+   display:flex; 
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        /* Additional styling for other elements */
+        header {
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background color for better readability */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background color for better readability */
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background color on hover */
+        }
+        section {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background color for better readability */
+            margin: 20px 0;
+        }
+        grid-item {
+            text-align: center;
+        }
+        .grid-container {
+    display: flex;
+    justify-content: space-between; /* Adjust the space between items */
+}
+
+.grid-item {
+    flex: 1;
+    margin: 0 10px; /* Add margin between images */
+} 
+    </style>
+    </head>
+     <body>
+        <heading>Forms in HTML</heading>
+        <form>
+        <fieldset>
+        <legend>Log in Information</legend>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+            <label for="password">Password</label><input type="password" id="password" name="password" placeholder="Enter your password"><br>
+            <label>Please Select One</label><br>
+            <input type="radio" id="I am a Robot" name="Select" value="I am a Robot"><label for="I am a Robot">I am a Robot</label><br>
+            <input type="radio" id="I am Not a Robot" name="Select" value="I am Not a Robot">
+            <label for="I am Not a Robot">I am Not a Robot</label><br>
+            <button type="Save">Save</button>
+        </fieldset>
+        <fieldset>
+            <header>Your Qualifications</header>
+            <label for="Select all applicable">Select all applicable</label><br>
+            <input type="checkbox" id="PhD" name="qualifications" value="PhD">
+            <lable for="PhD">PHD</lable><br>
+            <input type="checkbox" id="Masters Degree" name="qualifications" value="Masters Degree">
+            <lable for="Masters Degree">Masters Degree</lable><br>
+            <input type="checkbox" id="Bachelors Degree" name="qualifications" value="Bachelors Degree">
+            <lable for="Bachelors Degree">Bachelors Degree</lable><br>
+            <input type="checkbox" id="Diploma" name="qualifications" value="Diploma">
+            <lable for="Diploma">Diploma</lable><br>
+            <input type="checkbox" id="Certificate" name="qualifications" value="Certificate">
+            <lable for="Certificate">Certificate</lable><br>
+            <input type="checkbox" id="HighSchool Diploma" name="qualifications" value="HighSchool Diploma">
+            <lable for="HighSchool Diploma">HighSchool Diploma</lable><br>
+        </fieldset>
+        <button type="submit">Submit</button>
+        </form>
+     </body>
+    </html>
+</html>
